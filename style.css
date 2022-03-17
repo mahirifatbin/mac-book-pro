@@ -1,0 +1,19 @@
+.underlines{
+    width:75%;
+    /* text-align:left; */
+    /* margin-left:0 */
+    
+}
+.underlines-bold{
+    width: 75%;
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:black;
+    /* text-align: left; */
+}
+.footer-underline{
+    
+    margin-left: 150px;
+    margin-right: 150px;
+}

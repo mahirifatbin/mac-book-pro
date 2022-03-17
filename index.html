@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RaMa Mart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container mt-5">
+                <div class=" row align-items-start">
+                    <div class="image col">
+                        <img src="mac.png" class="w-75 float-end me-5" alt="">
+                        <!-- <img class="w-50" src="mac.png" alt=""> -->
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h2>Customize your Blue 24-inch iMac with Apple M1 chip</h2>
+                            <p>Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core
+                                GPU, and 16-core Neutral Engine 8Gb unified memory 256GB SSD storage Two Thunnder bolt /
+                                USB 4 ports Magic Mouse Magic Keyboard- US English</p>
+                        </div>
+                        <div class="mt-5 pb-5">
+                            <div>
+                                <h5 class="fw-bold">Memory</h5>
+
+                                <!-- Memory Button -->
+                                <div>
+                                    <button id="8gbMem-btn" type="button" class="btn btn-outline-dark rounded">8GB
+                                        unified memory</button>
+                                    <button id="16gbMem-btn" type="button" class="btn btn-outline-dark rounded">16GB
+                                        unified memory</button>
+                                </div>
+                            </div>
+                            <!-- Storage Button -->
+                            <div>
+                                <h5 class="mt-5 fw-bold">Storage</h5>
+
+                                <div>
+                                    <button id="256gbStor-btn" type="button" class="btn btn-outline-dark rounded">256GB
+                                        SSD
+                                        Storage</button>
+                                    <button id="512gbStor-btn" type="button" class="btn btn-outline-dark rounded">512GB
+                                        SSD
+                                        Storage</button>
+                                    <button id="1TBStor-btn" type="button" class="btn btn-outline-dark rounded">1TB SSD
+                                        Storage</button>
+                                </div>
+                            </div>
+                            <!-- Delivery Button -->
+                            <div>
+                                <h5 class="mt-5 fw-bold">Chose Delivery Option</h5>
+                                <div>
+                                    <button id="free-btn" type="button" class="btn btn-outline-dark rounded">Friday,
+                                        August 25 Prime
+                                        Delivery</button>
+                                    <button id="Nofree-btn" type="button" class="btn btn-outline-dark rounded">Friday,
+                                        August 21
+                                        Delivery
+                                        Charge
+                                        $20</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Price -->
+                        <div class="container mt-4">
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">Best Price</h5>
+                                </div>
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">$<span id="bestPrice">1299</span></h5>
+                                </div>
+                            </div>
+
+                            <hr class="underlines">
+                            <!-- Extra Memory Cost -->
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">Extra Memory Cost</h5>
+                                </div>
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">$<span id="exMem-cost">0</span></h5>
+                                </div>
+                            </div>
+
+                            <hr class="underlines">
+                            <!-- Extra Storage Cost -->
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">Extra Storage Cost</h5>
+                                </div>
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">$<span id="exStor-cost">0</span></h5>
+                                </div>
+                            </div>
+
+                            <hr class="underlines">
+                            <!-- Delivery Cost -->
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">Delivery Charge</h5>
+                                </div>
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">$<span id="delivery-cost">0</span></h5>
+                                </div>
+                            </div>
+
+                            <div class="underlines-bold mb-3">
+                                <hr>
+                            </div>
+                            <!-- Total Price -->
+                            <div class="row">
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">Total Price</h5>
+                                </div>
+                                <div class="col-sm">
+                                    <h5 class="fw-bold">$<span id="total-cost">1299</span></h5>
+                                </div>
+                            </div>
+                            <hr class="underlines">
+                        </div>
+                        <div>
+                            <h5>Add Promo Code</h5>
+                            <input id="promoCode" class="" type="text">
+                            <button id="button-apply"
+                                class="text-white bg-danger rounded-3 border-white p-sm-2">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="text-center pb-5">
+                <hr class="footer-underline">
+                <h2>Total: $<span id="total-balance">1299</span></h2>
+            </footer>
+        </section>
+    </main>
+
+    <!-- <script src="JS/javsScript.js"></script> -->
+    <script src="JS/javsScript.js"></script>
+</body>
+
+</html>
